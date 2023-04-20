@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Trang tài liệu</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header id="header">
+		<nav>
+			<div class="logo"><img src="images/icon/logo.pn" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Trang chủ</a></li>
+				<li><a href="#portfolio_section">Giải trí</a></li>
+				<li><a href="#team_section">Hỗ Trợ</a></li>
+				<li><a href="#services_section">Dịch Vụ</a></li>
+			</ul>
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>Trang tài liệu</p>
+				<h5>Trang web chỉ mang tính chất tham khảo, hiện tại chưa hoàn thành!</h5>
+			</div>
+			<div class="svg-image">
+				<img src="images/extra/svg1.jpg" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+			<div class="user">
+				<img src="images/creator/roshan.jpeg" alt="Username">
+				<p>roshank9419</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<!-- Some Popular Subjects -->
+	<div class="title">
+		<span>Danh Mục Tài liệu</span>
+	</div>
+	<br><br>
+	<div class="course">
+		<center><div class="cbox">
+		<div class="det"><a href="login.html"><img src="images/courses/paper.png">Kho Đề Thi</a></div>
+		<div class="det"><a href="subjects/quiz.html"><img src="images/courses/d1.png">Câu hỏi hàng ngày</a></div>
+		</div></center>
+		<div class="cbox">
+		<div class="det"><a href="login.html"><img src="images/courses/computer.png">khóa học máy tính</a></div>
+		<div class="det"><a href="login.html"><img src="images/courses/data.png">Cấu trúc dữ liệu</a></div>
+		<div class="det"><a href="login.html"><img src="images/courses/algo.png">thuật toán</a></div>
+		<div class="det det-last"><a href="login.html"><img src="images/courses/projects.png">Dự án</a></div>
+		</div>
+	</div>
+
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<center><p style="font-size: 50px; padding: 100px">Về chúng tôi</p></center>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="images/extra/e3.jpg">
+				</div>
+				<div class="side-text">
+					<h2>Bạn nghĩ gì về chúng tôi?</h2>
+					<p>Giáo dục là quá trình hỗ trợ việc học tập hoặc sự thu được kiến thức, kỹ năng, giá trị, niềm tin và thói quen. Các phương pháp giáo dục bao gồm giảng dạy, huấn luyện, kể chuyện, thảo luận và nghiên cứu có hướng dẫn.
+						<br> Các trang web giáo dục có thể bao gồm các trang web có trò chơi, video hoặc tài nguyên liên quan đến chủ đề, đóng vai trò như các công cụ để tăng cường học tập và bổ sung cho việc giảng dạy trong lớp học. Những trang web này giúp làm cho quá trình học tập trở nên thú vị và hấp dẫn đối với học sinh, đặc biệt là trong thời đại hiện nay.
+						<br>Bằng các sử dụng HTML (HyperText Markup Language), CSS (Cascading Style Sheet) và JavaScript, chúng ta có thể làm cho quá trình học tập dễ dàng hơn và thú vị hơn.</p>
+				</div>
+		</div>
+	</div>
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<center><p style="font-size: 50px; padding-top: 100px; padding-bottom: 60px;">Hỗ trợ</p></center>
+		<div class="totalcard">
+			<div class="card">
+				<center><img src="images/creator/roshan.jpeg"></center>
+				<center><div class="card-title">Vương</div>
+				<div id="detail">
+					<p>Hỗ trợ 1</p>
+					<div class="duty"></div>
+					<a href="https://www.facebook.com/profile.php?id=100090793791939" target="_blank"><button class="btn-roshan">Liên hệ</button></a>
+				</div>
+				</center>
+			</div>
+			<div class="card">
+				<center><img src="images/creator/roshan.jpeg"></center>
+				<center><div class="card-title">Vương</div>
+				<div id="detail">
+					<p>Hỗ trợ 2</p>
+					<div class="duty"></div>
+					<a href="https://www.facebook.com/profile.php?id=100090793791939" target="_blank"><button class="btn-akhil">Liên hệ</button></a>
+				</div>
+				</center>
+			</div>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Dịch vụ</p></center>
+		</div>
+		<a href="login.html"><div class="s-card"><img src="images/icon/computer-courses.png"><p>Các khóa học máy tính trực tuyến miễn phí</p></div></a>
+		<a href="login.html"><div class="s-card"><img src="images/icon/brainbooster.png"><p>Xây dựng khái niệm cho các kỳ thi cạnh tranh</p></div></a>
+		<a href="login.html"><div class="s-card"><img src="images/icon/online-tutorials.png"><p>Bài giảng video trực tuyến</p></div></a>
+		<a href="login.html"><div class="s-card"><img src="images/icon/papers.jpg"><p>Bài mẫu của các kỳ thi cạnh tranh khác nhau</p></div></a>
+		<a href="login.html"><div class="s-card"><img src="images/icon/p3.png"><p>Báo cáo hiệu suất và xếp hạng</p></div></a>
+		<a href="login.html"><div class="s-card"><img src="images/icon/discussion.png"><p>Thảo luận với Gia sư & Cố vấn của chúng tôi</p></div></a>
+		<a href="login.html"><div class="s-card"><img src="images/icon/q1.png"><p>Những câu hỏi luyện não hàng ngày để cải thiện chỉ số IQ</p></div></a>
+		<a href="login.html"><div class="s-card"><img src="images/icon/help.png"><p>Hỗ trợ trực tuyến 24x7</p></div></a>
+	</div>
+
+	<!-- Sliding Information -->
+	<marquee style="background: linear-gradient(to right, #FA4B37, #DF2771); margin-top: 50px;" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="20"><div class="marqu">“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”</div></marquee>
+
+<!-- FOOTER -->
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="images/icon/logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="images/icon\fb.png"></a>
+				</div><br><br>
+				<p class="rights-text">Lưu ý: trang web hiện chỉ mang tính chất tham khảo hiện tại chưa được đưa vào sử dụng</p>
+				<br><p><img src="images/icon/location.png"> Chư Păh<br>Gia Lai</p><br>
+				<p><img src="images/icon/phone.png"> +84.442.424.244<br><img src="images/icon/mail.png">&nbsp; ********@gmail.com</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
